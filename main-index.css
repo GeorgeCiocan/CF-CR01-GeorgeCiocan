@@ -1,0 +1,57 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  width: fit-content;
+  margin: 15rem auto 0 auto;
+}
+
+.column {
+  text-align: center;
+}
+
+h2 {
+  max-width: fit-content;
+  margin: 0 auto;
+}
+
+/* hero section settings */
+.hero {
+  max-width: 60%;
+  font-size: 2rem;
+  text-align: center;
+  margin: 3rem auto 5rem auto;
+}
+/* hero section settings */
+
+/* single column row settings */
+.row {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.row img {
+  max-height: 14rem;
+}
+/* single column row settings */
+
+/* two column row settings */
+.two-column-row {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.two-column-row img {
+  max-height: 13rem;
+}
+/* two column row settings */
